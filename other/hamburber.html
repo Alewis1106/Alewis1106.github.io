@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <title>Hamburber Menu</title>
+  <script type="text/javascript">
+    function openNav() {
+      console.log("i opened the menu");
+      var menuBox = document.getElementById("hamburberMenu");
+      menuBox.style.display = 'block';
+    }
+
+    function closeNav() {
+      console.log("i close the menu");
+      var menuBox = document.getElementById("hamburberMenu");
+      menuBox.style.display = 'none';
+    }
+  </script>
+</head>
+
+<body>
+  <div id="hamburberIcon" onclick="openNav()">
+    ☰
+  </div>
+  <div id="hamburberMenu">
+    <div id="closeMenu" onclick="closeNav()">
+      X
+    </div>
+    <a href="index.html">Home</a>
+  </div>
+  <p>I like to eat hamburber.</p>
+</body>
+
+</html>

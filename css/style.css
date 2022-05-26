@@ -1,103 +1,45 @@
 body {
-  height: 100%;
+  background-color: #003399;
 }
 
-.thumbsBox {
-  text-align: center;
-  font-size: 100px;
-  font-family: Garamond;
-  width: 50%;
-  height: 50%;
+.blogBox img {
+  float: left;
 }
 
-.pTop {
-  Position: absolute;
-  top: 0px;
+.blogBox {
+  border: 2px solid #000000;
+  margin: 2px;
+  padding: 10px;
 }
 
-.pBot {
-  Position: absolute;
-  bottom: 0px;
+#menuBox {
+  border: 2px solid #000000;
+  margin: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.pLeft {
-  Position: absolute;
-  left: 0px;
-}
-
-.pRight {
-  Position: absolute;
-  right: 0px;
-}
-
-#tUp {
-  background-color: #00ff00;
-  border: 5px solid #000000;
-}
-
-#tWiggle {
-  background-color: #00ffff;
-  border: 5px solid #000000;
-}
-
-#tDown {
-  background-color: #ff0000;
-  border: 5px solid #000000;
-}
-
-#tOops {
-  background-color: #cccc00;
-  border: 5px solid #000000;
-}
-
-#tUp:hover {
-  background-color: #ffffff;
-}
-
-#tDown:hover {
-  background-color: #ffffff;
-}
-
-#tWiggle:hover {
-  background-color: #ffffff;
-}
-
-#tOops:hover {
-  background-color: #ffffff;
-}
-
-div {
-  background-color: hotpink;
-}
-
-#conBox {
-  border: 3px solid pink;
-}
-
-#headerBox {
-  border: 1px dotted red;
+.linkBox {
+  border: 2px solid #000000;
   margin: 20px;
 }
 
-p {
-  color: Purple;
-  font-size: 15px;
-}
-
-.paraBox {
-  border: 1px solid black;
-}
-
-.navBox {
+#headerBox {
   border: 2px solid #000000;
+  margin: 2px;
   padding: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 
-.page {
-  border: 3px solid #000000;
-  padding: 3px;
-  display: inline;
+#contentBox {
+  width: 600px;
+  margin: auto;
+  border: 10px;
+}
+
+p {
+  text-shadow: 2px 2px #ffffff;
 }
